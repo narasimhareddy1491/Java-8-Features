@@ -18,7 +18,11 @@ public class StreamExample{
     // using map() to perform operation like doubling the data
     Stream<Integer> mapData = nums.stream().map(d -> d*2);
     System.out.println("doubling the values in array using map() method");
-    mapData.forEach(m -> System.out.print(m + " "));
+    mapData.forEach(m -> System.out.print(m + " " + "\n"));
+    
+    // using filter method to get even numers from the list
+     System.out.println("getting even values in array using filter() method");
+    nums.stream().filter(a -> a % 2 == 0).sorted().forEach(a -> System.out.println(a));
   }
 
 }
