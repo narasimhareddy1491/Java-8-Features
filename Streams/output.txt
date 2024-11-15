@@ -1,0 +1,18 @@
+total values available  in the list is: 5
+actual values in the arraylis is :[12, 5, 7, 2, 4]
+sorted values using stream method is:
+2
+4
+5
+7
+12
+doubling the values in array using map() method
+24 
+10 
+14 
+4 
+8 
+getting even values in array using filter() method
+2
+4
+12
